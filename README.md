@@ -6,7 +6,7 @@
 
 conf/database.xml
 配置数据库相关表的执行策略
-'''
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <database>username:password@127.0.0.1:8088/orcl</database>
 
@@ -21,12 +21,12 @@ conf/database.xml
         <strategy>UserId</strategy>
     </coloum>
 </table>
-'''
+```
 
 conf/table.properties
 配置相关操作对应的表
-'''
+```
 accountcreate=User
 fundAdd=fund
 stockAdd=Stock
-'''
+```
